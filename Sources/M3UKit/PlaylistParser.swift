@@ -324,7 +324,7 @@ public final class PlaylistParser {
   internal let mediaKindSeriesRegex: RegularExpression = #"\/series\/"#
   internal let mediaKindLiveRegex: RegularExpression = #"\/live\/"#
 
-  internal let seasonEpisodeRegex: RegularExpression = #" S(\d+) E(\d+)"#
+  internal let seasonEpisodeRegex: RegularExpression = #" S(\d+)\s?E(\d+)"#
 
   internal let attributesIdRegex: RegularExpression = #"tvg-id=\"(.?|.+?)\""#
   internal let attributesNameRegex: RegularExpression = #"tvg-name=\"(.?|.+?)\""#
